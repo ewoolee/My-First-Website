@@ -1,0 +1,39 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+	margin: 2em auto;
+	width: 80%;
+}
+
+#title{
+	font-family: 'Satisfy', cursive;
+	font-size: 3em;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+.nav{	
+	float: right;
+}
+
+.nav div{
+	padding: 1.5em 1em;
+	display: inline-block;
+	text-transform: uppercase;	
+}
+
+.nav a{
+	text-decoration: none;
+}
+
+#works{
+	background-color: #EED3C9;
+}
+

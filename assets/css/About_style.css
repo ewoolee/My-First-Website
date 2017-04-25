@@ -1,0 +1,95 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+	margin: 2em auto;
+	width: 80%;
+}
+
+#title{
+	font-family: 'Satisfy', cursive;
+	font-size: 3em;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+.nav{	
+	float: right;
+}
+
+.nav div{
+	padding: 1.5em 1em;
+	display: inline-block;
+	text-transform: uppercase;	
+}
+
+.nav a{
+	text-decoration: none;
+}
+
+#about{
+	background-color: #EED3C9;
+	text-decoration: none;
+}
+
+.profile{
+	margin: 2em auto;
+	width: 80%;
+	position: relative;
+}
+
+#me{
+	display: inline-block;
+	width: 28em;
+	height: 18em;
+	overflow: hidden;
+}
+
+#me img{
+	width: 28em;
+	transform: translateY(-16%);	
+}
+
+#intro{
+	width: 50%;
+	display: inline-block;
+	margin: 0 2em;
+	position: absolute;
+}
+
+#contact{
+	width: 100px;
+	background-color: #CAD2CB;
+	border-radius: 3px;
+	padding: .5em;
+	margin: 1em 0;
+	text-align: center;
+}
+
+.form{
+	visibility: hidden;
+}
+
+input{
+	margin-top: 2em;
+}
+
+textarea{
+	margin-top: 1em;
+	display: block;
+}
+
+#submit{
+	width: 100px;
+	background-color: #CAD2CB;
+	border-radius: 3px;
+	padding: .5em;
+	margin: 1em 0;
+	text-align: center;
+}

@@ -1,0 +1,100 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+	margin: 2em auto;
+	width: 80%;
+}
+
+#title{
+	font-family: 'Satisfy', cursive;
+	font-size: 3em;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.nav{	
+	float: right;
+}
+
+.nav div{
+	padding: 1.5em 1em;
+	display: inline-block;
+	text-transform: uppercase;	
+}
+
+.nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#about{
+	text-decoration: none;
+}
+
+.works{
+	margin: 2em auto;
+	width: 70%;
+}
+
+#left{
+	display: inline-block;
+	padding: 3em 2em 3em 0;
+}
+
+#right{
+	display: inline-block;
+	padding: 3em 0 3em 2em;
+	float: right;
+}
+
+#pic{
+	width: 24em;
+	height: 16em;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #CAD2CB;
+    opacity: 0;
+}
+
+#overlay:hover {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+img{
+	height: 16em;
+}
+
+#description{
+	font-weight: bold;
+	margin: 1em 0;
+	text-align: center;
+}
+
+#text{
+	font-size: 1.5em;
+	color: white;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 39%;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+​
+
