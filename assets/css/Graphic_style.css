@@ -39,14 +39,60 @@ body{
 	width: 70%;
 }
 
-#back{
+.menu{
 	position: fixed;
 	font-size: 1.5em;
-	top: 95%;
+	top: 100%;
+	transform: translateY(-100%);
+	background: #CAD2CB; 
+	padding: .3em 1em;
+	transition: .3s;
+
+	  -webkit-border-top-left-radius: 15px;
+	  -webkit-border-top-right-radius: 15px;
+	  -moz-border-radius-topleft: 15px;
+	  -moz-border-radius-topright: 15px;
+	  border-top-left-radius: 15px;
+	  border-top-right-radius: 15px; 
+}
+
+.sidebar-container{
+	position: fixed;
+    top: 100%;
+    left: 0;
+    height: 200px;
+    transition: .3s;
+}
+
+.sidebar-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 10px;
+	border: 1px #CAD2CB;
+}
+
+.sidebar-item{
+	padding: 15px 20px;
+	text-decoration: none;
+	border-radius: 1px;
+	border-color: #CAD2CB;
+}
+
+.sidebar-active{
+	transform: translateY(-100%);
+}
+
+.menu-active{
+	transform: translateY(-250px);
 }
 
 .contents img{
 	display: block;
 	margin: 3em auto;
 	width: 50%;
+}
+
+.no-scroll {
+	overflow: hidden;
 }
