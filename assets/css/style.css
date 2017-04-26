@@ -74,6 +74,10 @@ img{
 	height: 16em;
 }
 
+#gd, #hovercraft{
+	width: 24em;
+}
+
 #description{
 	font-weight: bold;
 	margin: 1em 0;
